@@ -1,0 +1,47 @@
+/* Site override: mahiigan.com */
+:root {
+--color-primary: #5da654;
+--color-primary-dim: #4a8c42;
+--color-primary-bright: #7bc275;
+--color-bg: #121212;
+--color-surface: #1a1a1a;
+--color-surface-elevated: #242424;
+--color-text: #e8e4de;
+--color-text-muted: #a09888;
+--color-border: rgba(93, 166, 84, 0.2);
+--color-border-strong: rgba(93, 166, 84, 0.3);
+--color-glow: rgba(93, 166, 84, 0.4);
+--font-heading: 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+--font-body: 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+		--hero-title-color: #059669;
+		--hero-subtitle-color: #d1d5db;
+}
+
+.hero-fullscreen {
+	min-height: 100vh;
+}
+.hero-fullscreen .hero-overlay {
+	background: linear-gradient(to bottom, rgba(18,18,18,0.3) 0%, rgba(18,18,18,0.8) 70%, rgba(18,18,18,1) 100%);
+}
+.hero-title {
+	font-size: clamp(3rem, 8vw, 6rem);
+	font-weight: 300;
+	letter-spacing: -0.02em;
+}
+.hero-subtitle {
+	font-style: italic;
+	font-size: 1.2rem;
+	max-width: 500px;
+	margin: 0 auto;
+}
+.about-text {
+	font-size: 1.15rem;
+	line-height: 1.9;
+}
+.gallery-grid {
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.gallery-item {
+	aspect-ratio: 3/2;
+}
+
